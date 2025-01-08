@@ -3,24 +3,6 @@ Gatundu Hospital Management System
 BY: PESSY
 ## I) Using XAMPP Control Panel
 # XAMPP Control Panel Usage Guide
-
-## Introduction
-
-XAMPP is a free and open-source cross-platform web server solution stack package. It includes Apache, MySQL, PHP, and Perl. The XAMPP Control Panel is a graphical user interface (GUI) that allows you to easily manage the services such as Apache, MySQL, FileZilla, and others provided by the XAMPP stack.
-
-This guide will help you get started with XAMPP and explain how to use the XAMPP Control Panel effectively.
-
-## Prerequisites
-
-- XAMPP must be installed on your system. You can download it from [https://www.apachefriends.org/index.html](https://www.apachefriends.org/index.html).
-- Basic knowledge of web servers (Apache, MySQL) and databases (MySQL).
-
-## Installation
-
-1. **Download XAMPP**: Go to the official [XAMPP download page](https://www.apachefriends.org/index.html) and choose the correct version for your operating system (Windows, macOS, or Linux).
-2. **Install XAMPP**: Run the downloaded installer and follow the installation prompts.
-3. **Launch the XAMPP Control Panel**: After installation, open the XAMPP Control Panel. On Windows, you can find it by searching for "XAMPP Control Panel" in the Start menu.
-
 ## Using the XAMPP Control Panel
 
 Once you've opened the XAMPP Control Panel, you'll see several buttons for controlling the different services.
@@ -75,24 +57,9 @@ When you are done, you can completely stop all services by clicking "Stop" on al
 - **MySQL Data Folder**: `C:\xampp\mysql\data\`
   - This folder contains your MySQL database files.
 
-## Conclusion
-
-The XAMPP Control Panel is an easy way to manage the services that power your local web server. By following the steps above, you should be able to start, stop, and configure Apache, MySQL, and other services effectively.
-
-If you run into any issues, refer to the XAMPP [documentation](https://www.apachefriends.org/support.html) or consult the XAMPP user community for further assistance.
 
 ## II) Importing gatunduhmisdatabase to http://localhost/phpmyadmin/
 # How to Import a Database in phpMyAdmin
-
-## Introduction
-
-phpMyAdmin is a popular tool for managing MySQL databases through a web interface. One of its key features is the ability to import databases in a variety of formats, such as `.sql`, `.csv`, `.xml`, and more. This guide will walk you through the process of importing a database into phpMyAdmin.
-
-## Prerequisites
-
-- You need to have phpMyAdmin installed and running. It typically comes with software like XAMPP or WAMP.
-- You need access to the phpMyAdmin interface (usually available at `http://localhost/phpmyadmin`).
-- The database file you want to import, typically with a `.sql` extension, but it can also be in `.csv` or `.xml` format.
 
 ## Steps to Import a Database into phpMyAdmin
 
@@ -135,20 +102,6 @@ After the import, verify that the tables and data have been successfully added t
 1. Click on the **"Structure"** tab to see a list of the tables in the database.
 2. Click on the **"Browse"** tab to view the data in the tables you just imported.
 
-### Troubleshooting
-
-- **File Too Large**: If you encounter the error message **"File is too large"**, this may be due to the PHP configuration limiting the file upload size. You can adjust the `upload_max_filesize` and `post_max_size` settings in the `php.ini` file (usually found in the XAMPP or WAMP installation folder). Alternatively, you can split the large `.sql` file into smaller parts and import them one by one.
-- **Timeouts**: Large files might also cause timeouts. If you're running into a timeout error, consider increasing the `max_execution_time` in your `php.ini` file.
-- **SQL Errors**: If the database contains errors during import, phpMyAdmin will display error messages. Carefully check the error log to identify and resolve the issue.
-
-## Conclusion
-
-You have successfully imported a database into phpMyAdmin. If you encounter any issues during the import process, review the error messages for possible causes, or consult phpMyAdmin’s documentation for more detailed troubleshooting.
-
-## Additional Resources
-
-- [phpMyAdmin Documentation](https://docs.phpmyadmin.net)
-- [MySQL Official Documentation](https://dev.mysql.com/doc/)
 
 ![phpmyadmin](https://github.com/user-attachments/assets/df5c1637-b58c-42d3-b60d-52b772ee304e)
 
@@ -156,3 +109,7 @@ You have successfully imported a database into phpMyAdmin. If you encounter any 
 ## III) Now you can see the signing page of Gatundu, when you use 'http://localhost/GATUNDU_HMIS/GATUNDU_HMIS/' as the url
 
 ![image](https://github.com/user-attachments/assets/54d89799-9b1c-4da5-bbde-b222cb291b7f)
+
+after signing in as admin
+![Screenshot 2025-01-08 084313](https://github.com/user-attachments/assets/1609402a-a96f-42de-aa75-83eef898e8fd)
+
