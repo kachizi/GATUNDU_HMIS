@@ -106,7 +106,7 @@ After the import, verify that the tables and data have been successfully added t
 ![phpmyadmin](https://github.com/user-attachments/assets/df5c1637-b58c-42d3-b60d-52b772ee304e)
 
 
-## III) Now you can see the signing page of Gatundu, when you use 'http://localhost/GATUNDU_HMIS/GATUNDU_HMIS/' as the url
+# III) Now you can see the signing page of Gatundu, when you use 'http://localhost/GATUNDU_HMIS/GATUNDU_HMIS/' as the url
 
 ![image](https://github.com/user-attachments/assets/54d89799-9b1c-4da5-bbde-b222cb291b7f)
 
